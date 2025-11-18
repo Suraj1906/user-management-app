@@ -43,28 +43,32 @@ Here’s a preview of the project UI across different pages:
 ### **📋 1️⃣ Users List Page**
 View all users with search, filter, sort, and pagination features.  
 
-![Users List](path/to/users-list-screenshot.png)
+<img width="1276" height="628" alt="userslist" src="https://github.com/user-attachments/assets/fdb64203-a28a-4152-8657-3a9e9e7b8dd5" />
+
 
 ---
 
 ### **👁️ 2️⃣ View User Details**
 Click on a user to see detailed information including contact info and additional data.  
 
-![User Details](path/to/user-details-screenshot.png)
+<img width="1294" height="646" alt="usersdetails" src="https://github.com/user-attachments/assets/dd610e30-20ce-4399-8669-f574e45fbc14" />
+
 
 ---
 
 ### **✏️ 3️⃣ Edit User Page**
 Update user information in a clean and simple form.  
 
-![Edit User](path/to/edit-user-screenshot.png)
+<img width="1260" height="663" alt="edituser" src="https://github.com/user-attachments/assets/b06160d6-9936-4863-affc-fae690f7fa2e" />
+
 
 ---
 
 ### **➕ 4️⃣ Create User Page**
 Add a new user with a user-friendly form interface.  
 
-![Create User](path/to/create-user-screenshot.png)
+<img width="1304" height="665" alt="createuser" src="https://github.com/user-attachments/assets/66237281-aba4-46e0-8875-08f23edbdef5" />
+
 
 
 ---

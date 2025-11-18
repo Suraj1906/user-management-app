@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* custom */
+:root { --glass: rgba(255,255,255,0.06); }
+
+
+html { transition: background-color 200ms ease; }
+
+
+/* glass card look */
+.glass {
+background: linear-gradient(135deg, rgba(255,255,255,0.6), rgba(255,255,255,0.2));
+backdrop-filter: blur(6px);
+}
+.dark .glass {
+background: rgba(255,255,255,0.02);
+}
+
+
+/* subtle shadow */
+.card-shadow { box-shadow: 0 6px 18px rgba(15,23,42,0.08); }
+.dark .card-shadow { box-shadow: 0 8px 30px rgba(2,6,23,0.6); }
+
+
+/* spinner */
+.loader {
+border: 4px solid rgba(0,0,0,0.06);
+border-top-color: rgba(59,130,246,1);
+border-radius: 9999px;
+width: 36px;
+height: 36px;
+animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+
+/* input focus */
+.input-focus:focus { outline: none; box-shadow: 0 0 0 4px rgba(59,130,246,0.08); }

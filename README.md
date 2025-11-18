@@ -1,16 +1,133 @@
-# React + Vite
+# 🧑‍💻 User Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-Vite-blue?style=for-the-badge&logo=react)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-3.3-blue?style=for-the-badge&logo=tailwind-css)
+![GitHub](https://img.shields.io/github/license/<USERNAME>/<REPO>?style=for-the-badge)
 
-Currently, two official plugins are available:
+A **modern User Management Application** built with **React.js** and **Vite**, allowing you to view, search, filter, sort, and manage users with a sleek and responsive UI.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live Demo: [🌐 Click here](https://user-mgmt10.netlify.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- View a list of users in a **responsive card grid**
+- **Search users** by name
+- **Filter users** by company or city
+- **Sort users** by name or email
+- **View user details** with full profile information
+- **Edit & Create Users** (simulated)
+- **Delete users** with confirmation modal
+- Smooth **animations** using Framer Motion
+- Dark mode ready UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React.js, Vite, Tailwind CSS  
+- **Icons:** Heroicons & Lucide React  
+- **HTTP Client:** Axios  
+- **Animations:** Framer Motion  
+- **Routing:** React Router DOM  
+
+---
+
+# 🖼️ Screenshots
+
+Here’s a preview of the project UI across different pages:
+
+---
+
+### **📋 1️⃣ Users List Page**
+View all users with search, filter, sort, and pagination features.  
+
+![Users List](path/to/users-list-screenshot.png)
+
+---
+
+### **👁️ 2️⃣ View User Details**
+Click on a user to see detailed information including contact info and additional data.  
+
+![User Details](path/to/user-details-screenshot.png)
+
+---
+
+### **✏️ 3️⃣ Edit User Page**
+Update user information in a clean and simple form.  
+
+![Edit User](path/to/edit-user-screenshot.png)
+
+---
+
+### **➕ 4️⃣ Create User Page**
+Add a new user with a user-friendly form interface.  
+
+![Create User](path/to/create-user-screenshot.png)
+
+
+---
+# 🚀 Setup Instructions
+
+Follow these steps to get the **User Management App** running on your local machine:
+
+---
+
+## 1️⃣ Clone the Repository
+Open your terminal and run:
+
+```bash
+git clone https://github.com/Suraj1906/user-management-app
+```
+##2️⃣ Navigate to the Project Folder
+
+```bash
+cd user-management-app
+```
+##3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+##4️⃣ Start the Development Server
+
+```bash
+npm run dev
+```
+##5️⃣Open in Browser
+
+```bash
+http://localhost:5173
+```
+
+# 🌐 Live Demo
+
+Experience the **User Management App** in action!  
+
+Click the link below to see the app live:
+
+[✨ Live Demo on Netlify](https://user-mgmt10.netlify.app/)
+
+# 🤝 Contribution
+
+Contributions, suggestions, and improvements are **always welcome**!  
+If you’d like to contribute:
+
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m "Add some feature"`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request and describe your changes.
+
+Let's build something amazing together! 🚀
+
+---
+
+# 📝 License
+
+This project is licensed under the **MIT License**.  
+Feel free to use, modify, and distribute it for personal and commercial purposes.  
+
+See the [LICENSE](./LICENSE) file for more details.
+
